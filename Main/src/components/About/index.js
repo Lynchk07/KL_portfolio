@@ -1,21 +1,32 @@
 import React from 'react';
+import { Stack } from 'react-bootstrap';
+import Card from 'react-bootstrap/Card';
 
 function About() {
   return (
-    <section className="my-5">
-      <div className="my-2">
-        <div className="profile-img my-5">
-        <i className="fas fa-user-circle" style={{ fontSize: "96px" }}></i>
+    <Card>
+      <section className="my-5">
+        <div className="my-2">
+          <div className="profile-img my-5">
+          <i className="fas fa-user-circle" style={{ fontSize: "96px" }}></i>
+          <Stack direction="horizontal"     className="m-3 p-3">
+            <img src={ProfilePic} className="profilePic" alt="ProfilePic"></img>
+          </Stack>
+          </div>
+          <p>
+            I am a project manager on the sales team for National Accounts and a Full Stack Javascript Web Developer, Mern Stack.
+          </p>
+          <p>
+            I enjoy spending time with my family,dogs, and hiking. In my spare time I like to work on passion projects and code. 
+          </p>
+          <p>
+            Please contact me if you would like to connect.
+          </p>
         </div>
-        <p>
-        Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch Etsy authentic Marfa quinoa typewriter plaid direct trade small batch wayfarers bicycle rights cliche craft beer gastropub single-origin coffee Godard Carles you probably haven't heard of them irony pickled kitsch synth sriracha gentrify literally heirloom blog Truffaut paleo scenester
-        </p>
-        <p>
-        Echo Park sriracha Pinterest vegan biodiesel 90's irony iPhone Kickstarter Carles crucifix kitsch narwhal dreamcatcher pickled trust fund selvage art party letterpress Tumblr post-ironic kogi Thundercats Tonx Brooklyn Pitchfork Odd Future authentic normcore freegan leggings Schlitz chambray organic tousled retro fap squid street art church-key fashion axe Wes Anderson bespoke whatever gentrify banh mi you probably haven't heard of them American Apparel next level pug ugh.
-        </p>
-      </div>
-    </section>
+      </section>
+      </Card>
   );
 }
+
 
 export default About;
