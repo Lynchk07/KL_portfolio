@@ -1,11 +1,11 @@
 import React from 'react';
-import NaviBar from './Navbar';
+import Navbarr from './Navbarr';
 import Row from 'react-bootstrap/Row';
 
 function Header(){
     return(
         <Row>
-            <NaviBar/>
+            <Navbarr/>
         </Row>
     )
 }

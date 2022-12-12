@@ -8,40 +8,43 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
-import {Routes, Route} from 'react-router-dom';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
-  return (
-    <div>
 
+  const styles = {
+    dog: {
+      color: "blue",
+    backgroundColor: "green"}
+  }
+
+  return (
+    <BrowserRouter>
+<h1 style={styles.dog}>hello</h1>
       <Header/>
 
       <Routes>
-          <Route 
-            path='/' 
-            element={<Navbarr/>} 
-          />
           <Route 
             path='/' 
             element={<About/>} 
             //default home page
           />
            <Route 
-            path='./components/Portfolio' 
+            path='/portfolio' 
             element={<Portfolio/>} 
           />
           <Route 
-            path='./components/Resume' 
+            path='/Resume' 
             element={<Resume/>} 
           />
           <Route 
-            path='./components/Contact' 
+            path='/Contact' 
             element={<Contact/>} 
           />
       </Routes>
 
       <Footer/>
-    </div>
+    </BrowserRouter>
 
   );
 }
