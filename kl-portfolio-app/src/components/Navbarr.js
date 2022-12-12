@@ -4,11 +4,13 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 
-function NavBar() {
+function Navbarr() {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand className = {homePage} href="#home">Kristin Lynch</Navbar.Brand>
+        <Navbar.Brand
+        //  className = {homePage} 
+         href="#home">Kristin Lynch</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
@@ -21,4 +23,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Navbarr;

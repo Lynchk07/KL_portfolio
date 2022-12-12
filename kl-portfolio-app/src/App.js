@@ -1,21 +1,30 @@
 import React from 'react';
 // import './App.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header';
 import Footer from './components/Footer';
+import Navbarr from './components/Navbarr';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
-      <>
-        <Routes>
+    <div>
+
+      <Header/>
+
+      <Routes>
           <Route 
-            path='./components/About' 
+            path='/' 
+            element={<Navbarr/>} 
+          />
+          <Route 
+            path='/' 
             element={<About/>} 
+            //default home page
           />
            <Route 
             path='./components/Portfolio' 
@@ -29,13 +38,10 @@ function App() {
             path='./components/Contact' 
             element={<Contact/>} 
           />
-          <Route 
-            path='./components/Footer' 
-            element={<Footer/>} 
-          />
-        </Routes>
-      </>
-    </Router>
+      </Routes>
+
+      <Footer/>
+    </div>
 
   );
 }
