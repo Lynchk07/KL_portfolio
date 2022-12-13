@@ -7,7 +7,11 @@
   
   Live Deployment cand be viewed at:
   
-    https://lynchk07.github.io/KL_portfolio/
+   https://lynchk07.github.io/KL_portfolio/
+
+   Github repo:
+
+    https://github.com/Lynchk07/KL_portfolio
 
   # Table of Contents
 
