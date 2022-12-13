@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/KL_portfolio/static/css/main.44f8b8b5.css",
+    "main.js": "/KL_portfolio/static/js/main.e496a075.js",
+    "static/js/787.22421ff3.chunk.js": "/KL_portfolio/static/js/787.22421ff3.chunk.js",
+    "static/media/project2.png": "/KL_portfolio/static/media/project2.2b3d12dbcb833f7eeec7.png",
+    "static/media/profilepic.png": "/KL_portfolio/static/media/profilepic.22350530efb817fe16d0.png",
+    "static/media/project1.png": "/KL_portfolio/static/media/project1.84d34f4ae9d22a7203df.png",
+    "static/media/project3.png": "/KL_portfolio/static/media/project3.c7dc9f45b6e2f5ed6149.png",
+    "static/media/klresume.pdf": "/KL_portfolio/static/media/klresume.6d8d158863971e6ee68f.pdf",
+    "static/media/passwordGenerator.png": "/KL_portfolio/static/media/passwordGenerator.d1d35ba33563bcc781ef.png",
+    "static/media/noteapp.png": "/KL_portfolio/static/media/noteapp.059fe6a618d497032f7b.png",
+    "static/media/quizsnip.png": "/KL_portfolio/static/media/quizsnip.1ebc68108753086821c3.png",
+    "index.html": "/KL_portfolio/index.html",
+    "main.44f8b8b5.css.map": "/KL_portfolio/static/css/main.44f8b8b5.css.map",
+    "main.e496a075.js.map": "/KL_portfolio/static/js/main.e496a075.js.map",
+    "787.22421ff3.chunk.js.map": "/KL_portfolio/static/js/787.22421ff3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44f8b8b5.css",
+    "static/js/main.e496a075.js"
+  ]
+}
