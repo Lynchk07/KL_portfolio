@@ -7,6 +7,8 @@ import Wtm from './project1.png';
 import SU from './project3.png';
 import Bab from './project2.png';
 import PWG from './passwordGenerator.png';
+import QU from './quizsnip.png'
+import NOAPP from './noteapp.png'
 
 function Portfolio(props) {
 
@@ -66,6 +68,32 @@ function Portfolio(props) {
               </Card.Text>
               <Card.Link href="https://github.com/zeinabhared/BooksandBreweries">Git Repo</Card.Link>
               <Card.Link href="https://booksandbreweries2022.herokuapp.com/">Link</Card.Link>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card>
+            <Card.Img variant="top" src={QU} />
+            <Card.Body>
+              <Card.Title>Javascript Quiz App</Card.Title>
+              <Card.Text>
+                This was a project created during my coursework for University of Washington Coding bootcamp. This App is a javascript quiz 
+              </Card.Text>
+              <Card.Link href="https://github.com/Lynchk07/Javascript-Quiz_fundamentals">Git Repo</Card.Link>
+              <Card.Link href="https://lynchk07.github.io/Javascript-Quiz_fundamentals/">Link</Card.Link>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card>
+            <Card.Img variant="top" src={NOAPP} />
+            <Card.Body>
+              <Card.Title>Note Taker app</Card.Title>
+              <Card.Text>
+                This is an App used to take and save notes. 
+              </Card.Text>
+              <Card.Link href="https://github.com/Lynchk07/Note-Taker-app---Express.js">Git Repo</Card.Link>
+              <Card.Link href=" https://git.heroku.com/damp-badlands-54051.git">Link</Card.Link>
             </Card.Body>
           </Card>
         </Col>

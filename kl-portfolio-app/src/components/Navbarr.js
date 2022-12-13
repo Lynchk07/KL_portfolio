@@ -8,7 +8,7 @@ function Navbarr() {
   return (
     <Navbar bg='dark' expand='lg'>
       <Container>
-      <Link>Kristin Lynch</Link>
+      <Link >Kristin Lynch</Link>
         <Navbar.Brand href="#home"></Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home"><Link to="/">home</Link></Nav.Link>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import { Stack } from 'react-bootstrap';
-import ProfilePic from './profilepic.jpg';
+import ProfilePic from './profilepic.png';
 
 // function image(){
 //   return(
@@ -28,10 +28,10 @@ function About() {
             </div>
           
             <p>
-                I am a Project Manager on the sales team for National Accounts and a Full Stack Javascript Web Developer, Mern Stack.
+                I am currently employeed as a Project Manager. I am studying Full Stack Javascript Web Developer, specifically Mern Stack.
             </p>
             <p>
-                I enjoy spending time with my family,dogs, and hiking. In my spare time I like to work on passion projects and code. 
+                I enjoy spending time with my family, dogs, and hiking. In my spare time I like to work on passion projects and code. 
             </p>
             <p>
                 Please contact me if you would like to connect.
