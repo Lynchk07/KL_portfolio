@@ -15,7 +15,7 @@ function Footer() {
   return (
     <Row className="justify-content-md-center">
             <Col md={{ span: 2 }}>
-            <a href="https://github.com/Lynchk07">Kristin Lynch GitHub</a>
+            <a href="https://github.com/Lynchk07">GitHub</a>
             <br></br>
             </Col>
             <Col md={{ span: 2 }}>

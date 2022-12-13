@@ -1,5 +1,18 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
+import { Stack } from 'react-bootstrap';
+import ProfilePic from './profilepic.jpg';
+
+// function image(){
+//   return(
+//   <div>
+//     <a href='../assets/ProfilePic.JPG'></a>
+//   </div>
+//   );
+// }
+
+// export default image;
+
 
 function About() {
   return (
@@ -8,10 +21,14 @@ function About() {
         <div className="my-2">
             <div className="profile-img my-5">
             <i className="fas fa-user-circle" style={{ fontSize: "86px" }}></i>
+
+            <Stack direction="horizontal" className="m-2 p-3"></Stack>
+                <img src={ProfilePic} className="profilePic" alt="ProfilePic"></img>
+            
             </div>
-        
+          
             <p>
-                I am a project manager on the sales team for National Accounts and a Full Stack Javascript Web Developer, Mern Stack.
+                I am a Project Manager on the sales team for National Accounts and a Full Stack Javascript Web Developer, Mern Stack.
             </p>
             <p>
                 I enjoy spending time with my family,dogs, and hiking. In my spare time I like to work on passion projects and code. 
@@ -24,6 +41,7 @@ function About() {
     </Card>
   );
 }
+
 
 
 export default About;

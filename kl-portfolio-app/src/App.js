@@ -8,20 +8,27 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {BrowserRouter as  Router,Routes, Route} from 'react-router-dom';
 
 function App() {
 
   const styles = {
-    dog: {
-      color: "blue",
-    backgroundColor: "green"}
+    navbar: {
+      color: "white",
+    backgroundColor: "black",
+    justifyContent: "center",
+  },
+
+  footer: {
+    color: "yellow",
+  backgroundColor: "black",
+  justifyContent: "center",
+},
   }
 
   return (
-    <BrowserRouter>
-<h1 style={styles.dog}>hello</h1>
-      <Header/>
+    <Router>
+      <h1 style={styles.navbar}><Header/></h1>
 
       <Routes>
           <Route 
@@ -29,22 +36,26 @@ function App() {
             element={<About/>} 
             //default home page
           />
+          
            <Route 
             path='/portfolio' 
             element={<Portfolio/>} 
           />
+          
           <Route 
             path='/Resume' 
             element={<Resume/>} 
           />
+          
           <Route 
             path='/Contact' 
             element={<Contact/>} 
           />
+          
       </Routes>
 
-      <Footer/>
-    </BrowserRouter>
+    <Footer/>
+    </Router>
 
   );
 }

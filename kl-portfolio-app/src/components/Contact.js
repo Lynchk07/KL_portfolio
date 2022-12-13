@@ -7,21 +7,22 @@ function Contact() {
     <>
     <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
-      <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" />
+      <Form.Label>Name</Form.Label>
+        <Form.Control type="Name" placeholder="Enter Name (first and last)" />
         <Form.Text className="text-muted">
         </Form.Text>
-        <Form.Label>Name</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" />
+        <Form.Label>Email</Form.Label>
+        <Form.Control type="Email" placeholder="Enter email" />
         <Form.Text className="text-muted">
         </Form.Text>
         <Form.Label>Message</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" />
+        <Form.Control type="Message" placeholder="Enter message or questions" />
         <Form.Text className="text-muted">
         </Form.Text>
       </Form.Group>
     </Form>
     </>
+
   );
 }
 
