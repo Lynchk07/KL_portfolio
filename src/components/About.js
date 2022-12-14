@@ -28,7 +28,7 @@ function About() {
             </div>
           
             <p>
-                I am currently employeed as a Project Manager. I am studying Full Stack Javascript Web Developer, specifically Mern Stack.
+                I am currently employed as a Project Manager. I am studying Full Stack Javascript Web Developer, specifically Mern Stack.
             </p>
             <p>
                 I enjoy spending time with my family, dogs, and hiking. In my spare time I like to work on passion projects and code. 
