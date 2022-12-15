@@ -8,6 +8,7 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import HeroCarousel from './components/HeroCarousel';
 import {BrowserRouter as  Router,Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -20,16 +21,14 @@ function App() {
   },
 
   footer: {
-    color: "yellow",
   backgroundColor: "black",
-  justifyContent: "center",
 },
   }
 
   return (
     <Router>
       <h1 style={styles.navbar}><Header/></h1>
-
+      <HeroCarousel/>
       <Routes>
           <Route 
             path='/' 
@@ -54,7 +53,7 @@ function App() {
           
       </Routes>
 
-    <Footer/>
+      <h1 style={styles.navbar}><Footer/></h1>
     </Router>
 
   );

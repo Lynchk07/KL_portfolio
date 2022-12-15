@@ -3,17 +3,19 @@ import Container from 'react-bootstrap/esm/Container';
 import Col from 'react-bootstrap/esm/Col';
 import Row from 'react-bootstrap/Row';
 
+//added position-right to test footer
 const styles ={
   footer: {
     textDecoration: 'none',
     background: 'dark',
-    color: 'white'
+    color: 'white',
+
   }
 }
 
 function Footer() {
   return (
-    <Row className="justify-content-md-center">
+    <Row className="justify-content-md-center top=50px">
             <Col md={{ span: 2 }}>
             <a href="https://github.com/Lynchk07">GitHub</a>
             <br></br>
